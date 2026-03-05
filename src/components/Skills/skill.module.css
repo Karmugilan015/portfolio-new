@@ -1,0 +1,25 @@
+.skill {
+            background:linear-gradient(120deg,#03123b ,#2c84bf ,#ff77c6,#3797e6)!important;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 30px;
+            margin:20px; 
+            width:fit-content;
+		}
+
+
+    .skills{
+      display:flex;
+      flex-direction: row;
+      margin-top: 20px;
+      margin-bottom:20px;
+      overflow-x:hidden;
+      overflow-y:visible;
+      width:100%;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    h1{
+      background:linear-gradient(120deg,#03123b ,#2c84bf ,#ff77c6,#3797e6);-webkit-background-clip: text;-webkit-text-fill-color:transparent;background-position: right center !important;  
+    }

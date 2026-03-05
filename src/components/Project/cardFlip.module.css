@@ -1,0 +1,101 @@
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  cursor: pointer;
+}
+
+.flipCard {
+  perspective: 1000px;
+  width: 600px;
+  height: 300px;
+  position: relative;
+}
+
+.flipCardInner {
+  width: 100%;
+  height: 80%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  border: 2px solid #23058f; /* Narrow blue border */
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #120443, rgb(49, 93, 154)); /* Gradient background */
+}
+
+/* Add hover effect for rotation */
+.flipCard:hover .flipCardInner {
+  transform: rotateY(180deg);
+}
+
+.flipCardFront{
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flipCardBack{
+  position: absolute;
+
+width: 100%;
+height: 100%;
+backface-visibility: hidden;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.flipCardFront {
+  color: white;
+  padding: 20px;
+}
+
+.title {
+background:linear-gradient(120deg,#03123b ,#2c84bf ,#ff77c6,#3797e6);-webkit-background-clip: text;-webkit-text-fill-color:transparent;background-position: right center !important;  
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.description {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Small image centered in the front card */
+.image {
+  width: 80%;
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.flipCardBack {
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  transform: rotateY(180deg);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonContainer a {
+  margin: 5px;
+}
+.textCentre{
+  margin-bottom:20px;
+  margin-top:20px;
+  background:linear-gradient(120deg,#03123b ,#2c84bf ,#ff77c6,#3797e6);-webkit-background-clip: text;-webkit-text-fill-color:transparent;background-position: right center !important;
+}
