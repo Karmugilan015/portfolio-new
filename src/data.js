@@ -2,7 +2,7 @@
 export const projects = [
   {
     id: 1,
-    title: "HomeWorks",
+    title: "html and css",
     des: "A comprehensive service-providing application that seamlessly connects users with a wide range of professional services, ensuring convenience, efficiency, and reliability.",
     img: "/homeworks.png",
     link: "https://github.com/HafsanaSharafudheen/HomeWorkServices",
@@ -10,7 +10,7 @@ export const projects = [
   },
     {
       id: 2,
-      title: "Baby Bundles",
+      title: "javascript",
       des: "An e-commerce website dedicated to providing essential products for babies and toddlers.",
       img: "/babybuntle.png",
       link: "https://github.com/HafsanaSharafudheen/PROJECT-01.git",
@@ -18,7 +18,7 @@ export const projects = [
     },
     {
       id: 3,
-      title: "Mediflow",
+      title: "react",
       des: "An application for seamless doctor appointment booking.",
       img: "/Mediflow.png",
       link: "https://github.com/HafsanaSharafudheen/Mediflow-App.git",
@@ -26,7 +26,7 @@ export const projects = [
     },
     {
       id: 4,
-      title: "PDF Uploading App",
+      title: "mongo-db",
       des: "A platform where users can upload PDFs and create their own PDF documents.",
       img: "/PedfApp.png",
       link: "https://github.com/HafsanaSharafudheen/pdfFileUploadApp.git",
@@ -34,7 +34,7 @@ export const projects = [
     },
     {
       id: 5,
-      title: "OLX Clone Application",
+      title: "bootstrap",
       des: "A minimalistic OLX clone with essential functionalities for buying and selling.",
       img: "/olx.png",
       link: "https://github.com/HafsanaSharafudheen/OLX_CLONE.git",
@@ -42,7 +42,7 @@ export const projects = [
     },
     {
       id: 6,
-      title: "Netflix Clone",
+      title: "J-query",
       des: "A frontend design clone of the Netflix platform for exploring UI/UX design.",
       img: "/netflix.png",
       link: "https://github.com/HafsanaSharafudheen/NETFLIX.git",
@@ -50,7 +50,7 @@ export const projects = [
     },
     {
       id: 7,
-      title: "Way to Nikkah Clone",
+      title: "python",
       des: "A Front-End clone of application for meaningful conversations.",
       img: "/waytonikkah.png",
       link: "https://github.com/HafsanaSharafudheen/way-to-nikkah.git",
@@ -58,7 +58,7 @@ export const projects = [
     },
     {
       id: 8,
-      title: "Facebook Static Frontend Clone",
+      title: "My-sql",
       des: "A static frontend clone of Facebook for UI/UX study purposes.",
       img: "/fb.png",
       link: "https://github.com/HafsanaSharafudheen/facebook.git",
@@ -66,7 +66,7 @@ export const projects = [
     },
     {
       id: 9,
-      title: "Instagram Frontend Clone",
+      title: "Node-js",
       des: "A frontend clone of Instagram designed for UI/UX study purposes.",
       img: "/instagram.png",
       link: "https://github.com/HafsanaSharafudheen/instagram.git",
