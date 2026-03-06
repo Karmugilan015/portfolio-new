@@ -40,7 +40,7 @@ function ResumeSection() {
     </Container>
 <div className='justify-content-center mt-30px text-center '>
   <h1 className='dog'>ACADEMIC QUALIFICATION</h1>
-  <video ref={videoRef} autoPlay loop muted className='tink'>
+  <video ref={videoRef} autoPlay loop muted className={styles.backgroundVideo}>
             <source src={ogVideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
