@@ -1,7 +1,7 @@
 import  { useRef, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import styles from './ResumeSection.module.css';
-import bgVideo from '/public/blueBackground.mp4'; // Ensure the path is correct
+import bgVideo from '/public/blueBackground (1).mp4'; // Ensure the path is correct
 import ogVideo from '/public/he.mp4';
 
 function ResumeSection() {
