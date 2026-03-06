@@ -30,10 +30,8 @@ function Card({ data }) {
               >
                 Course Certificate
               </a>
-
-            
-              )}
             </div>
+
           </div>
 
         </div>
@@ -41,6 +39,5 @@ function Card({ data }) {
     </div>
   );
 }
-
 
 export default Card;
