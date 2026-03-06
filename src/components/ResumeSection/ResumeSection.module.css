@@ -8,6 +8,8 @@
 
 .videoSection {
   position: relative;
+  height:auto;
+  margin-bottom:10px;
 }
 
 .backgroundVideo {
