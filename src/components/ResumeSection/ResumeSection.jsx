@@ -18,7 +18,7 @@ function ResumeSection() {
     <Container fluid className={`${styles.resumeSection} d-flex align-items-center h-100`}>
       <div className="row">
         {/* Left Side with Video Background */}
-        <div className={`col-12 col-md-12 ${styles.videoSection} d-flex`}>
+        <div className={`${styles.videoSection} d-flex`}>
           <video ref={videoRef} autoPlay loop muted className={styles.backgroundVideo}>
             <source src={bgVideo} type="video/mp4" />
             Your browser does not support the video tag.
@@ -36,11 +36,11 @@ function ResumeSection() {
             </a>
           </div>
         </div>
-      </div>
+      </div></ br>
     </Container>
-<div className='tink justify-content-center mt-30px text-center '>
+<div className='justify-content-center mt-30px text-center '>
   <h1 className='dog'>ACADEMIC QUALIFICATION</h1>
-  <video ref={videoRef} autoPlay loop muted className={styles.backgroundVideo}>
+  <video ref={videoRef} autoPlay loop muted className='tink'>
             <source src={ogVideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
