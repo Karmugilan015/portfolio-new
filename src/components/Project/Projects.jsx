@@ -3,10 +3,10 @@ import CardFlip from './CardFlip';
 import { projects } from '../../data';
 import styles from './cardFlip.module.css';
 function Projects() {
-  const [visibleProjects, setVisibleProjects] = useState(6);
+  const [visibleProjects, setVisibleProjects] = useState(3);
 
   const showMoreProjects = () => {
-    setVisibleProjects((prev) => prev + 6);
+    setVisibleProjects((prev) => prev + 10);
   };
 
   return (
