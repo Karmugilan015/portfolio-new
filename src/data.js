@@ -3,7 +3,7 @@ export const projects = [
   {
     id: 1,
     title: "Hospital-Management",
-    des: "A comprehensive service-providing application that seamlessly connects users with a wide range of professional services, ensuring convenience, efficiency, and reliability.",
+    des: "Hospital Management System – Built a web-based system to manage patient records, appointments, and hospital administration efficiently..",
     img: "/hospital.png",
     link: "https://github.com/Karmugilan015/hospital-management.git",
     liveLink: "https://karmugilan015.github.io/hospital-management/",
@@ -11,7 +11,7 @@ export const projects = [
     {
       id: 2,
       title: "E-commerce website",
-      des: "An e-commerce website dedicated to providing essential products for babies and toddlers.",
+      des: "An e-commerce website dedicated to providing essential products for Men and women.",
       img: "/e.png",
       link: "https://github.com/Karmugilan015/e-commerce-html.git",
       liveLink: "https://karmugilan015.github.io/e-commerce-html/",
@@ -19,7 +19,7 @@ export const projects = [
     {
       id: 3,
       title: "Tour-web",
-      des: "An application for seamless doctor appointment booking.",
+      des: "Developed a travel and tour management website to explore destinations, packages, and booking information.",
       img: "/to.png",
       link: "https://github.com/Karmugilan015/tour-web.git",
       liveLink: "https://karmugilan015.github.io/tour-web/",
@@ -27,7 +27,7 @@ export const projects = [
     {
       id: 4,
       title: "Auction-web",
-      des: "A platform where users can upload PDFs and create their own PDF documents.",
+      des: "Built an online auction platform where users can list items, place bids, and manage auction activities.",
       img: "/auc.png",
       link: "https://github.com/Karmugilan015/auction-hub.git",
       liveLink: "https://auction-hub-1-jdyt.onrender.com/",
@@ -35,7 +35,7 @@ export const projects = [
     {
       id: 5,
       title: "Finance-manager",
-      des: "A minimalistic OLX clone with essential functionalities for buying and selling.",
+      des: "Developed a financial management web application to track income, expenses, and budgeting..",
       img: "/fin.png",
       link: "https://github.com/Karmugilan015/fin-manager.git",
       liveLink: "https://fin-manager-1.onrender.com",
@@ -43,7 +43,7 @@ export const projects = [
     {
       id: 6,
       title: "portfolio-old",
-      des: "A frontend design clone of the Netflix platform for exploring UI/UX design.",
+      des: "Designed and developed a personal portfolio website to showcase projects, skills, and professional information.",
       img: "/port.png",
       link: "https://github.com/Karmugilan015/portfolio.git",
       liveLink: "https://karmugilan015.github.io/portfolio/#about",
