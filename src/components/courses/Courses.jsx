@@ -4,10 +4,10 @@ import { data } from '../../beta';
 import styles from '../Project/cardFlip.module.css';
 
 function Courses() {
-  const [visibleCourses, setVisibleCourses] = useState(5);
+  const [visibleCourses, setVisibleCourses] = useState(3);
 
   const showMoreCourses = () => {
-    setVisibleCourses((prev) => prev + 5);
+    setVisibleCourses((prev) => prev + 10);
   };
 
   return (
@@ -30,5 +30,6 @@ function Courses() {
     </div>
   );
 }
+
 
 export default Courses;
