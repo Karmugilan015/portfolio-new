@@ -28,19 +28,10 @@ function Card({ data }) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                GitHub
+                Course Certificate
               </a>
 
-              {/* ✅ Correct condition */}
-              {data.liveLink && (
-                <a
-                  href={data.liveLink}
-                  className="btn btn-primary m-2"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Live Demo
-                </a>
+            
               )}
             </div>
           </div>
@@ -50,5 +41,6 @@ function Card({ data }) {
     </div>
   );
 }
+
 
 export default Card;
