@@ -38,7 +38,7 @@ function ResumeSection() {
         </div>
       </div>
     </Container>
-<div className='boy justify-content-center mt-30px text-center '>
+<div className='tink justify-content-center mt-30px text-center '>
   <h1 className='dog'>ACADEMIC QUALIFICATION</h1>
   <video ref={videoRef} autoPlay loop muted className={styles.backgroundVideo}>
             <source src={ogVideo} type="video/mp4" />
