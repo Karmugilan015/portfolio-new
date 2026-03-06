@@ -2,7 +2,6 @@
 .resumeSection {
   position: relative;
   height: auto;
-  overflow: hidden;
   margin-top:40px;
   background-color: transparent;
 }
