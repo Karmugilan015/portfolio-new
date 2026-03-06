@@ -77,16 +77,17 @@ export const data = [
       id: 11,
       title: "Mern stack development-Internship-edunet",
       des: "Certified in building full-stack web applications using MongoDB, Express.js, React, and Node.js..",
-      img: "/mern.png",
+      img: "/IMG_20260306_135521.jpg",
       link: "https://drive.google.com/file/d/1TWW_hN5bT2s0JUVzG6HnqIV7U0EN6lJX/view?usp=drivesdk",
     },
     {
       id: 12,
       title: "UI/UX design-Novietech",
       des: "Completed certification in designing user-friendly interfaces and improving user experience through effective design principles and prototyping..",
-      img: "/ui.png",
+      img: "/IMG_20260306_135459.jpg",
       link: "https://drive.google.com/file/d/1QOFUsl9T-dTk8volB7BeDfud-BjsJTAz/view?usp=drivesdk",
     },
   ];
 
   
+
