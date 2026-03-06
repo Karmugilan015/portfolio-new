@@ -15,7 +15,7 @@ function ResumeSection() {
 
   return (<>
   <h1 className="text-center">OBJECTIVE</h1>
-    <Container fluid className={`${styles.resumeSection} d-flex align-items-center`}>
+    <Container fluid className={`${styles.resumeSection} d-flex align-items-center h-100`}>
       <div className="row">
         {/* Left Side with Video Background */}
         <div className={`col-12 col-md-12 ${styles.videoSection} d-flex align-items-center justify-content-center position-relative`}>
