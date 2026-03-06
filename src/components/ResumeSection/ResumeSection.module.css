@@ -1,3 +1,4 @@
+/* Resume Section */
 .resumeSection {
   position: relative;
   overflow: hidden;
@@ -5,11 +6,15 @@
   background-color: transparent;
 }
 
+/* Video Container */
 .videoSection {
   position: relative;
+  width: 100%;
   min-height: 450px;
+  overflow: hidden;
 }
 
+/* Background Video */
 .backgroundVideo {
   position: absolute;
   top: 0;
@@ -21,66 +26,84 @@
   z-index: 1;
 }
 
+/* Content above video */
 .contentOverlay {
   position: relative;
   z-index: 2;
-  text-align: center;
   color: #fff;
+  text-align: center;
   padding: 60px 20px;
+  background-color: transparent;
 }
 
+/* Links */
 a {
   text-decoration: none;
 }
 
+/* Small Heading */
 .heading {
   font-size: 14px;
   width: 100%;
-  margin: 10px 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-@media (min-width:768px){
-  .heading{
-    font-size:20px;
+/* Tablet */
+@media (min-width:768px) {
+  .heading {
+    font-size: 20px;
   }
 }
 
-@media (min-width:1200px){
-  .heading{
-    font-size:28px;
+/* Desktop */
+@media (min-width:1200px) {
+  .heading {
+    font-size: 28px;
   }
 }
 
+/* Gradient Main Heading */
 .headings {
-  font-size:22px;
-  width:100%;
-  margin:10px 0;
+  font-size: 22px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
   background: linear-gradient(120deg,#03123b,#2c84bf,#ff77c6,#3797e6);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-@media (min-width:768px){
-  .headings{
-    font-size:26px;
+/* Tablet */
+@media (min-width:768px) {
+  .headings {
+    font-size: 26px;
   }
 }
 
-@media (min-width:1200px){
-  .headings{
-    font-size:34px;
+/* Desktop */
+@media (min-width:1200px) {
+  .headings {
+    font-size: 34px;
   }
 }
 
-.button{
-  padding:12px 24px;
-  border-radius:10px;
-  font-size:18px;
-  font-weight:600;
-  width:fit-content;
-  color:white;
-  border:none;
+/* Button */
+.button {
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  width: fit-content;
+  color: white;
+  border: none;
 
   background: linear-gradient(120deg,#03123b,#2c84bf,#ff77c6,#3797e6);
+}
+
+/* Button Hover */
+.button:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
 }
