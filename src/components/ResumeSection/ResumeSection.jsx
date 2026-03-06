@@ -18,7 +18,7 @@ function ResumeSection() {
     <Container fluid className={`${styles.resumeSection} d-flex align-items-center h-100`}>
       <div className="row">
         {/* Left Side with Video Background */}
-        <div className={`col-12 col-md-12 ${styles.videoSection} d-flex align-items-center justify-content-center position-relative`}>
+        <div className={`col-12 col-md-12 ${styles.videoSection} d-flex`}>
           <video ref={videoRef} autoPlay loop muted className={styles.backgroundVideo}>
             <source src={bgVideo} type="video/mp4" />
             Your browser does not support the video tag.
