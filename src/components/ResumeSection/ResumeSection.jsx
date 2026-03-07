@@ -71,7 +71,7 @@ function ResumeSection() {
 
       
         <Row className='dog justify-items-center d-flex'>
-          <Col className='dogvideo d-flex justify-content-center align-items-center'>
+          <Col className='d-flex justify-content-center align-items-center'>
 
 
             <video
@@ -79,7 +79,7 @@ function ResumeSection() {
               autoPlay
               loop
               muted
-      
+      className='dogvideo'
             >
               <source src={oegVideo} type="video/mp4" />
             </video>
