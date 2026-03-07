@@ -2,7 +2,7 @@ import { useRef, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./ResumeSection.module.css";
 import bgVideo from "/public/blueBackground (1).mp4";
-import ogVideo from "/public/he.mp4";
+import oegVideo from "/public/he.mp4";
 
 function ResumeSection() {
 
@@ -78,9 +78,9 @@ function ResumeSection() {
               autoPlay
               loop
               muted
-              className={styles.backgroundVideo}
+          
             >
-              <source src={ogVideo} type="video/mp4" />
+              <source src={oegVideo} type="video/mp4" />
             </video>
 
           </Col>
