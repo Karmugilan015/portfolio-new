@@ -83,14 +83,13 @@
             color: white;
             background:linear-gradient(120deg,#03123b ,#2c84bf ,#ff77c6,#3797e6);
         }
-        .dog{
-            flex-wrap:wrap;
-            display:flex;
-            height:auto;
-            width:auto;
-            overflow:visible;
-            margin-top:10px;
-            margin-bottom:10px;
+        .dog {
+  width: 100%;
+  height: auto;
+  overflow: visible;   /* allow full content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
         }
         .link {
            color:white;
