@@ -71,7 +71,7 @@ function ResumeSection() {
 
       
         <Row className='dog justify-items-center d-flex'>
-          <Col className={`${styles.videoSection} text-center`}>
+          <Col>
 
             <video
               ref={videoRef2}
