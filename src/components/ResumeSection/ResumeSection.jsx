@@ -36,7 +36,7 @@ function ResumeSection() {
             </a>
           </div>
         </div>
-      </div> </br>
+      </div> 
     </Container>
           <Container fluid className={`${styles.resumeSection} d-flex align-items-center h-100`}>
 <div className='justify-content-center mt-30px text-center '>
