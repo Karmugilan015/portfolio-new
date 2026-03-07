@@ -71,7 +71,8 @@ function ResumeSection() {
 
       
         <Row className='dog justify-items-center d-flex'>
-          <Col>
+          <Col className='dogvideo d-flex justify-content-center align-items-center'>
+
 
             <video
               ref={videoRef2}
