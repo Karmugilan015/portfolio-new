@@ -90,10 +90,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-            max-width: 100%;
+        }
+.dogvideo {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
   object-fit: contain; /* show full image/video */
   display: block;
-        }
+}
         .link {
            color:white;
            font-size: 20px!important;
