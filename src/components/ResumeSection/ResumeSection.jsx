@@ -51,7 +51,7 @@ function ResumeSection() {
               </p>
 
               <a
-                href="https://drive.google.com/uc?export=download&id=1RR_NDxCx2SWRqtmD6N8YR-Ay6DGOTlr_"
+                href="file.pdf" download
                 className={`${styles.button}`}
               >
                 Download Resume
