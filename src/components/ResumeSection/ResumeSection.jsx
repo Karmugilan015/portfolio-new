@@ -36,15 +36,17 @@ function ResumeSection() {
             </a>
           </div>
         </div>
-      </div></ br>
+      </div> </br>
     </Container>
+          <Container fluid className={`${styles.resumeSection} d-flex align-items-center h-100`}>
 <div className='justify-content-center mt-30px text-center '>
   <h1 className='dog'>ACADEMIC QUALIFICATION</h1>
-  <video ref={videoRef} autoPlay loop muted className={styles.backgroundVideo}>
+<video ref={videoRef} autoPlay loop muted className={styles.backgroundVideo}>
             <source src={ogVideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
 </div>
+  </Container>
    
     </>
   );
