@@ -90,6 +90,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+            max-width: 100%;
+  object-fit: contain; /* show full image/video */
+  display: block;
         }
         .link {
            color:white;
