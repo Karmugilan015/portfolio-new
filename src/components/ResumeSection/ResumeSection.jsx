@@ -69,8 +69,8 @@ function ResumeSection() {
         <h1 className="dog">ACADEMIC QUALIFICATION</h1>
       </div>
 
-      <Container fluid className={styles.resumeSection}>
-        <Row>
+      
+        <Row className='justify-items-center d-flex'>
           <Col className={`${styles.videoSection} text-center`}>
 
             <video
@@ -85,9 +85,7 @@ function ResumeSection() {
 
           </Col>
         </Row>
-      </Container>
-
-    </>
+        </>
   );
 }
 
