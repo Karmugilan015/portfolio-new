@@ -84,9 +84,11 @@
             background:linear-gradient(120deg,#03123b ,#2c84bf ,#ff77c6,#3797e6);
         }
         .dog{
+            flex-wrap:wrap;
             display:flex;
-            height:fit-content;
-            width:fit-content;
+            height:auto;
+            width:auto;
+            overflow:visible;
             margin-top:10px;
             margin-bottom:10px;
         }
