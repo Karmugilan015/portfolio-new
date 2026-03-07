@@ -20,7 +20,7 @@ function ResumeSection() {
 
   return (
     <>
-    
+    <h1 className="mt-10 text-center">HI IAM KARMUGILAN THIS IS MY PERSONAL PORTFOLIO</h1>
       <h1 className="text-center">OBJECTIVE</h1>
 
       <Container fluid className={`${styles.resumeSection}`}>
