@@ -70,14 +70,14 @@ export const data = [
       id: 10,
       title: "Full stack development-Novietech",
       des: "Earned certification demonstrating the ability to develop complete web applications using both front-end and back-end technologies.",
-      img: "/full.png",
+      img: "/IMG_20260306_135521.jpg",
       link: "https://drive.google.com/file/d/1TTIabcEjIzOGNttp4g1G2L_I8uULiBIm/view?usp=drivesdk",
     },
     {
       id: 11,
       title: "Mern stack development-Internship-edunet",
       des: "Certified in building full-stack web applications using MongoDB, Express.js, React, and Node.js..",
-      img: "/IMG_20260306_135521.jpg",
+      img: "/mern.png",
       link: "https://drive.google.com/file/d/1TWW_hN5bT2s0JUVzG6HnqIV7U0EN6lJX/view?usp=drivesdk",
     },
     {
@@ -90,4 +90,5 @@ export const data = [
   ];
 
   
+
 
