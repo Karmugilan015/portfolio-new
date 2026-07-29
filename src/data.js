@@ -40,14 +40,6 @@ export const projects = [
       link: "https://github.com/Karmugilan015/fin-manager.git",
       liveLink: "https://fin-manager-1.onrender.com",
     },
-    {
-      id: 6,
-      title: "portfolio-old",
-      des: "Designed and developed a personal portfolio website to showcase projects, skills, and professional information.",
-      img: "/port.png",
-      link: "https://github.com/Karmugilan015/portfolio.git",
-      liveLink: "https://karmugilan015.github.io/portfolio/#about",
-    },
      ];
   export const SkillBoy = [
 {
